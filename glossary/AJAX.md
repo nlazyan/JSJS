@@ -1,0 +1,1 @@
+AJAX(անլ. Asynchronous Javascript and XML - «Ասինխրոն Javascript և XML) - տեխնոլոգիա ասինխրոն HTTP հարցումների համար

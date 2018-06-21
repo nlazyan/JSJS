@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="refresh" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Simplified JavaScript Jargon</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+<style>
+	* {
+		box-sizing: inherit;
+	}
+	html {
+		font-size: 100%;
+	}
+	body {
+		margin:0;
+		font: 125% / 1.4 'Helvetica', 'Arial', sans-serif;
+		background-color: #ebe7df;
+	}
+	.container {
+		max-width: 100%;
+		width: 750px;
+		padding: 0 20px;
+		margin:0 auto;
+	}
+	.search__input {
+		display: inline-block;
+		padding: 10px;
+		font:inherit;
+		border-radius: 0;
+		width: 100%;
+		border: 3px solid #eb5424;
+	}
+	.search__button {
+		font:inherit;
+		background-color: #eb5424;
+		color:white;
+		display: flex;
+		border: 0;
+		padding: 0 15px;
+		cursor: pointer;
+		border-radius: 0;
+	}
+
+	i {
+        display: inline-block;
+        font-size: 1.3em;
+        padding: 12px;
+        margin: -53px 682px;
+        background-color: #eb5424;
+    }
+    ul {
+        list-style: none;
+    }
+	.index-list li:before {
+		 content:'→ ';
+		 display: inline-block;
+		 margin-right: 1ch;
+		 font-family: monospace;
+		 transform: translateY(-3px) scale(1.2);
+	     }
+	.box {
+		padding: 20px;
+		border: 2px solid black;
+		margin: 20px 0;
+		background-color: white;
+	}
+	.box--transparent ul li {
+		display: inline-block;
+		padding: 3px 5px;
+		color:black;
+	}
+	.alphabet {
+		list-style: none;
+		text-align: center;
+		margin:0;
+		padding: 0;
+		font-size: 80%;
+	}
+	.as-h1 {
+		font-size: 2em;
+		margin: 0 0 20px;
+	}
+	div {
+		display: block;
+	}
+	ul {
+		display: block;
+	}
+	.intro {
+		font-size: 75%;
+		color:#999;
+		font-style: italic;
+		margin-top: 0;
+		text-align: center;
+	}
+	p {
+		display: block;
+	}
+	.index-list li {
+		text-align: justify;
+    	color: #666;
+    	margin-bottom: 10px;
+}
+</style>
+<main class="main container">
+<img src="JSJS.png" style="width: 746px">
+<div class="box--accent box--collapse" id="search-container" style="display: block;">
+
+ <form class="search" id="search-form">
+ 	<input type="search" name="search" placeholder="Ի՞նչ եք ցանկանում սովորել" class="search__input" autofocus> <button class="search__button" type="submit" aria-label="search"><i class="icon glyphicon glyphicon-search"></i></button>
+ </form>
+</div>
+	
+	
+	<div class = "box box--transparent">
+		<ul class="alphabet">
+			<a href="#"><li>A</li></a>
+			<a href="#"><li>B</li></a>
+			<a href="#"><li>C</li></a>
+			<a href="#"><li>D</li></a>
+			<a href="#"><li>E</li></a>
+			<a href="#"><li>E</li></a>
+			<a href="#"><li>G</li></a>
+			<a href="#"><li>H</li></a>
+			<a href="#"><li>I</li></a>
+			<a href="#"><li>J</li></a>
+			<a href="#"><li>K</li></a>
+			<a href="#"><li>L</li></a>
+			<a href="#"><li>M</li></a>
+			<a href="#"><li>N</li></a>
+			<a href="#"><li>O</li></a>
+			<a href="#"><li>P</li></a>
+			<a href="#"><li>Q</li></a>
+			<a href="#"><li>R</li></a>
+			<a href="#"><li>S</li></a>
+			<a href="#"><li>T</li></a>
+			<a href="#"><li>U</li></a>
+			<a href="#"><li>V</li></a>
+			<a href="#"><li>W</li></a>
+			<a href="#"><li>X</li></a>
+			<a href="#"><li>Y</li></a>
+			<a href="#"><li>Z</li></a>
+		</u>
+	</div>
+
+<div class="box">
+ <p class="intro">Եթե Ձեզ դուր է գալիս JavaScrip պարզեցված ժառգոնը, ստուգեք կապակցված <a href="">պրոյեկտները</a>:</p>
+ <section aria-label="Entries starting with “a”">
+ 	<span class="as-h1">A</span>
+ 	<ul class="index-list">
+ 		<li><a href=""><abbr title="Asynchronous Javascript and XML">Ajax</abbr></a>  (անգլ. Asynchronous Javascript and XML - «Ասինխրոն Javascript և XML) - տեխնոլոգիա ասինխրոն 
+ 		<abbr title="Hypertext Transfer Protocol"> HTTP </abbr> հարցումների համար </li>
+ 		<li><a href=""><abbr title="Asynchronous Module Definition">AMD</abbr></a> (անգլ. Asynchronous Module Definition - «Մոդուլի անինխրոն սահմանում») - ստանդարտ, որը սահմանում է(բնութագրում է)՝ ինչպես JavaScript գրադարանները և մոդուլները բեռնել ասինխրոն</li>
+ 		<li><a href="">AngularJS</a> - դինամիկ վեբ հավելվածների կառուցվածքային հարթակ(ֆրեմվորկ)</li>
+ 		<li><a href="">Apache Cordova</a> - Մոբիլ հավելվածների մշակման հայտնի հարթակ է, որը, ի սկզբանե, ստեղծվել է Nitobi-ի կողմից</li>
+ 		<li><a href="">Arity</a> - ֆունկցիայի արգումենտների քանակն է</li>
+ 	</ul>
+ </section>
+ <section aria-label="Entries starting with “b”">
+ 	<span class="as-h1">B</span>
+ 	<ul class="index-list">
+ 		<li><a href="">Babel</a> - JavaScript վերափոխման գործիքակազմ, որը ի սկզբանե եղել է  որպես ECMAScript 2015/ES6 կոդի թարգմանիչ (transpiler - տրանսպիլեռ) </li>
+ 		<li><a href="">Backbone</a> - դինամիկ վեբ ափերի համար կառուցվածքային հարթակ(ֆրեյմորկ)</li>
+ 		<li><a href=""><abbr title="Block Element Modifier">BEM</abbr></a> - Յանդեքսի կողմից մշակված և կիրառվող գրադարաններ և մեթոդոլոգիաներ յուզեր(օգտագործողի) ինտերֆեյսի կառուցման համար</li>
+ 		<li><a href="">Bluebird</a> - լիարժեք ֆունկցիոնալ  գրադարան փրոմիսների(Promise) հետ աշխատելու համար  ժամանակակից հնարավորությունների  և արտադրողականության վրա կենտրոնացմամբ</li>
+ 		<li><a href="">Bower</a> - ֆրոնթէնդ-կախվածությունների համար փաթեթների մենեջեր</li>
+ 		<li><a href="">Broccoli</a> - արագ և ապահով ֆայլալար(անգլ. asset pipeline)</li>
+ 		<li><a href="">Browserify</a> - գործիք, որը հնարավոր է դարձնում բրոուզերում  Node.js-ից `require` ֆունկցիաների կիրառումը</li>
+ 		<li><a href="">Brunch</a> - գործիք պռոյեկտի սկզբնական կոդից տեղակայման պատրաստ(deployment-ready) ֆայլերի արտադրության համար</li>
+ 	</ul>
+ </section>
+ <section aria-lable="Entries starting with “c”">
+ 	<span class="as-h1">C</span>
+ 	<ul class="index-list">
+ 		<li><a href="">Canvas</a> - <abbr title="HyperText Markup Language">HTML</abbr> - էլեմենտ 2D կամ 3D գրաֆիկական հավելվածներ ստեղծելու համար</li>
+ 		<li><a href="">Chai</a> - assertion-գրադարան, որը օգտագործվում է JavaScript տեստավորման ֆրեմվորկների հետ</li>
+ 		<li><a href="">Chakra</a> - JavaScript շարժիչ, որը մշակվել է Microsoft-ի կողմից իր Edge բրոուզերի համար, որը նաև կարող է օգտագործվել Node.js-ի հետ V8-ի փոխարեն</li>
+ 		<li><a href="">Closure</a> - ֆունկցիա, որը ներդրված է այլ ֆունկցիաների մեջ և ունի հասանելիություն արտաքին ֆունկցիաների փոփոխականներին, միևնույն ժամանակ նրա բոլոր ներքին փոփոխականները թաքնված են արտաքին ֆունկցիաների համար</li>
+ 		<li><a href="">Closure Compiler</a> - JavaScript ստուգիչ(checker) և օպտիմալացման միջոց</li>
+ 		<li><a href="">Coffeescript</a> - մետալեզու, որը կոմպիլացվում է JavaScript-ում </li>
+ 		<li><a href="">CommonJS</a> - պրոյեկտ, որի նպատակն է JavaScript- ի էկոհամակարգը դիտարկել բրաուզերից դուրս(օրինակ՝ սերվերի վրա կամ մայրենի դեսկթոփ հավելվածների(native desktop applications) համաչ)</li>
+ 		<li><abbr title="Cross Origin Resource sharing"><a href="">CORS</a></abbr> (ռեսուրսների միջդոմենային փոխանակում)- տեխնոլոգիա, որը  թույլ է տալիս վեբ-էջին հասանելիություն տալ այլ դոմեյնի ռեսուրսներին </li>
+ 		<li><a href="">CouchDB</a> - NoSQL տվյալների բազա, որը օգտագործում է JavaScript-ը որպես հարցումների լեզու և HTTP-ն՝ որպես API</li>
+ 		<li><a href="">Currying</a> - պրոցես, որը մի քանի պարամետրերով(արգումենտներով) ֆունկցիան ձևափոխում է մեկ պարամետր ունեցող ֆունկցիաների շղթայի</li>
+ 	</ul>
+ </section>
+ <section aria-label="Entries starting with “d”">
+ 	<span class="as-h1">D</span>
+ 	<ul class="index-list">
+ 		<li><a href="">D3.js</a> - գրադարան տվյալների վրա հիմնված փաստաթղթերը կառավարելու համար</li>
+ 		<li><a href="">Design Patterns</a> - a general reusable solution to a commonly occurring problem within a given context in software design</li>
+ 		<li><a href=""><abbr title="Document Object Model">DOM</abbr></a>(փաստաթղթի օբյեկտային մոդել) - պլատֆորմից և ծրագրավորման լեզվից անկախ ինտերֆեյս, որը ծրագրերին և սկրիպտերին թույլ է տալիս դինամիկ կերպով ստանալ հասանելիություն փաստաթղթին և թարմացնել նրա պարունակությունը, կառուցվածքը և ոճը</li>
+
+ 	</ul>
+ </section>
+ <section aria-label="Entries starting with “d”">
+ 	<span class="as-h1">E</span>
+ 	<ul class="index-list">
+ 		<li><a href=""><abbr title="ECMAScript">ECMAScript (ES)</abbr></a> - JavaScript-ում օգտագործվող սկրիպտային լեզվի ստանդարտացված սպեցիֆիկացիա</li>
+ 		<li><a href="">Electron</a> - Node.js-ի վրա հիմնված ֆրեմվորք, որը թույլ է տալիս գրել cross-platform desktop applications՝ օգտագործելով <abbr title="JavaScript">JS</abbr>, <abbr title="HyperText Markup Language">HTML</abbr> և <abbr title="Cascading styleSheet">CSS</abbr></li>
+ 		<li><a href="">Ember</a> - հավելվածային ֆրեմվորկ, որը հիմնված է model-view-controller pattern</li>
+ 		<li><a href="">Enzyme</a> - a JavaScript Testing utility for React developed by AirBnB that makes it easier to assert, manipulate, and traverse React components’ output.</li>
+ 		<li><a href="">ESLint</a> - JavaScript-կոդի վերլուծիչ</li>
+ 		<li><a href="">Express</a> - արագ, մինիմալիստական ֆրեմվորկ Node.js-ի համար վեբ-հավելվածների մշակման համար</li>
+ 		<li><a href="">Ext <abbr title="JavaScript">JS</abbr></a> - a pure JavaScript application framework for building interactive cross platform web applications</li>
+  	</ul>
+ </section>
+ <section aria-label="">
+ 	<span class="as-h1">F</span>
+ 	<ul class="index-list">
+ 		<li><a href="">Facade Pattern</a> - ծրագրային նախաֆծման օրինակ, որը, սովորաբար, օգտահգործվում է օբյեկտակողմնորոշված ծրագրավորման հետ: Անունը ճարտարապետական ճակատի անալոգիայով է</li>
+ 		<li><a href="">Factory Pattern</a> - ստեղծագործական օրինակ, որը օգտագործում է գործնական մեթոդներ օբյեկտներ ստեղծելու հետ կապված խնդիրները լուծելու համար առանց օբյեկտի ճշգրիտ կլասը նշելու, որը պետք է ստեղծվի</li>
+ 		<li><a href="">Falcor</a> - JavaScript գրդարան տվյալներ արդյունավետ ընտրության համար</li>
+ 		<li><a href="">Flow</a> - ստատիկ տիպի ստուգիչ, որը նախագծվել է JavaScript ծրագրերում տիպային սխալները հայտնաբերելու համար</li>
+ 		<li><a href="">Flux</a> - կիրառական կառուցվածք, որն կենտրոնացված է բարելավված տվյալների հոսքի վրա </li>
+ 		<li><a href="">Four</a> - հարթակ վեբի համար 3D կոնտնետ մշակելու համար</li>
+ 	</ul>
+ </section>
+	
+</div>
+</div>
+</main>
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</bodyY
+</html>
